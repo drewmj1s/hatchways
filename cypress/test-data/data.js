@@ -1,0 +1,28 @@
+exports.tags_to_test = ["tag", "tag1", "tag2", "tag3", "tag4"];
+exports.names_to_test = ["", "a", "ar", "inga"];
+
+exports.all_names = ["Ingaberg Orton",
+                    "Clarke Boards",
+                    "Laurens Romanet",
+                    "Berti Skitt",
+                    "Mureil Summerley",
+                    "Robbyn Coryndon",
+                    "Sheena Eykel",
+                    "Minnnie Ewen",
+                    "Rory Iban",
+                    "Lenna Roxby",
+                    "Rosalynd Fitzalan",
+                    "Stephanie Rapelli",
+                    "Maire Macdirmid",
+                    "Nicoline Shepherd",
+                    "Yoshi Thorns",
+                    "Marna Tothe",
+                    "Orelia Keary",
+                    "Moses Swait",
+                    "Fonsie Nussey",
+                    "Skelly Rydings",
+                    "Olly Brenneke",
+                    "Norby Badwick",
+                    "Melody Michie",
+                    "Janice Willoughey",
+                    "Geraldine Gallymore"]
