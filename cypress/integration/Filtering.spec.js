@@ -11,6 +11,7 @@ describe('Filtering by name', () => {
     // start on a freshly loaded page each time
     beforeEach(() => {
         cy.visit('/')
+        cy.get('.student-component-and-tags')
     })
     it('test inputting valid full name', () => {
         cy.get('input[id="search-by-name"]').type(all_names[0])

@@ -5,6 +5,7 @@ describe('Test expanding', () => {
     // start on a freshly loaded page each time
     beforeEach(() => {
         cy.visit('/')
+        cy.get('.student-component-and-tags')
     })
     it('test expanding grades of one student', () => {
         cy.get('.student-component-and-tags').find('.student p').should('have.length',4*25);
@@ -25,8 +26,6 @@ describe('Test expanding', () => {
         let average = 0;
         cy.get('#1-avg').nextAll().each((el)=>{
             total += parseInt(el[0].textContent.slice(-4), 10);
-            console.log(parseInt(el[0].textContent.slice(-4), 10));
-            console.log(total);
             numvalues++;
             average = total/numvalues;
         }).then(()=>{
